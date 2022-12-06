@@ -14,44 +14,47 @@
     display: inline-block;
     width: 80px;
     height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 .logo2{
     display: inline-block;
     font-size: 50px;
-    vertical-align: auto;
+    vertical-align: middle;
 }
 .background{
     background-color: rgba(246,248,249,255)
 
 }
 .add{
-    max-width: 800px;
-    height: 50px;
     background-color: white;
+    max-width: 800px;
     margin: auto;
     margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px 5px 0 0;
 }
 .bott1{
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 15px;
     padding: 5px;
+    margin-left: 50px;
     color: white;
     background-color: rgb(97, 97, 239);
-    border-radius: 5px;
-
+    border-radius: 10px;
+    vertical-align: middle;
 }
 .bott2{
     display: inline-block;
-    margin-top: 15px;
     padding: 5px;
     border: solid lightgray 1px;
     color: lightgray;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    vertical-align: middle;
 }
-.main-sec{
+.main-section{
     font-size: 25px;
     max-width: 800px;
     height: 650px;
@@ -62,14 +65,75 @@
 }
 .list-item{
     font-weight: 600;
+    margin-left: 50px;
+    padding-top: 30px;
 }
 .list-item1{
     font-weight: 400;
     margin: 10px;
 }
 .check{
-    padding: 1px;
     border: solid lightgray 1px;
     border-radius: 100%;
     color: lightgray;
+}
+.cross{
+    border: solid red 1px;
+    border-radius: 100%;
+    color: red;
+}
+.button-blue{
+    display: inline-block;
+    color: white;
+    background-color:rgba(97, 97, 239, 0.732);
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.button-blue1{
+    display: inline-block;
+    color: white;
+    background-color:rgb(107, 107, 241);
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.button-green{
+    display: inline-block;
+    color: white;
+    background-color:lightgreen;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.button-yellow{
+    display: inline-block;
+    color: white;
+    background-color: yellow;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.button-gray{
+    display: inline-block;
+    color: white;
+    background-color: gray;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.button-orange{
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    vertical-align: middle;
+}
 }
