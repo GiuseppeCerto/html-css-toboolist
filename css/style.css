@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
 }
 .logo{
     background-color: white;
@@ -15,16 +17,59 @@
 }
 .logo2{
     display: inline-block;
-    font-family: sans-serif;
+    font-size: 50px;
+    vertical-align: auto;
 }
 .background{
-    background-color: lightgray;
+    background-color: rgba(246,248,249,255)
 
 }
 .add{
-    width: 600px;
+    max-width: 800px;
     height: 50px;
     background-color: white;
     margin: auto;
     margin-top: 20px;
+    border-radius: 5px 5px 0 0;
+}
+.bott1{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(97, 97, 239);
+    border-radius: 5px;
+
+}
+.bott2{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px;
+    border: solid lightgray 1px;
+    color: lightgray;
+    background-color: white;
+    border-radius: 5px;
+}
+.main-sec{
+    font-size: 25px;
+    max-width: 800px;
+    height: 650px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 0 0 5px 5px;
+}
+.list-item{
+    font-weight: 600;
+}
+.list-item1{
+    font-weight: 400;
+    margin: 10px;
+}
+.check{
+    padding: 1px;
+    border: solid lightgray 1px;
+    border-radius: 100%;
+    color: lightgray;
 }
